@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6958143-defa-4197-8918-b3af3441aab2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="lab-dl" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VMTvsSiGCVPhzJtfTizmjK0McJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="C:/dev/Python37/python.exe" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\내 드라이브\dev\lab-dl\ch06" />
+      <recent name="G:\내 드라이브\dev\lab-dl\ch03" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\내 드라이브\dev\lab-dl\ch06" />
+      <recent name="G:\내 드라이브\dev\lab-dl" />
+      <recent name="G:\내 드라이브\dev\lab-dl\ch05" />
+      <recent name="G:\내 드라이브\dev\lab-dl\ch03" />
+      <recent name="G:\내 드라이브\dev\lab-dl\dataset" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.e12_overfitting">
+    <configuration name="e09_weight_init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/e09_weight_init.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="e12_overfitting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lab-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/e12_overfitting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex10_weight_compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lab-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ex10_weight_compare.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex11_batch_normalization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lab-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ex11_batch_normalization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="optimizer_compare_mnist (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../8. ML/밑바닥부터 시작하는 딥러닝/deep-learning-from-scratch-master/ch06" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../8. ML/밑바닥부터 시작하는 딥러닝/deep-learning-from-scratch-master/ch06/optimizer_compare_mnist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.e12_overfitting" />
+        <item itemvalue="Python.ex11_batch_normalization" />
+        <item itemvalue="Python.ex10_weight_compare" />
+        <item itemvalue="Python.e09_weight_init" />
+        <item itemvalue="Python.optimizer_compare_mnist (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6958143-defa-4197-8918-b3af3441aab2" name="Default Changelist" comment="" />
+      <created>1577062197813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577062197813</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577321133538">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1577321133538" />
+    <state x="689" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577170493776">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="689" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1577170493776" />
+    <state x="707" y="404" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1578617575466">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="707" y="376" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1577776083000" />
+    <state x="707" y="404" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1578617575466" />
+    <state x="640" y="274" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577251523263">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="640" y="274" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1577251523263" />
+    <state x="679" y="345" key="#org.intellij.plugins.intelliLang.inject.config.ui.BaseInjectionDialog" timestamp="1578619744956">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="679" y="345" key="#org.intellij.plugins.intelliLang.inject.config.ui.BaseInjectionDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1578619744956" />
+    <state x="740" y="316" key="FileChooserDialogImpl" timestamp="1578619751772">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1578465785835" />
+    <state x="740" y="316" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1578619751772" />
+    <state width="1900" height="302" key="GridCell.Tab.0.bottom" timestamp="1578637204154">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578470921685" />
+    <state width="1900" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1578637204154" />
+    <state width="1900" height="302" key="GridCell.Tab.0.center" timestamp="1578637204153">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="319" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578470921685" />
+    <state width="1900" height="302" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1578637204153" />
+    <state width="1900" height="302" key="GridCell.Tab.0.left" timestamp="1578637204153">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="319" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578470921684" />
+    <state width="1900" height="302" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1578637204153" />
+    <state width="1900" height="302" key="GridCell.Tab.0.right" timestamp="1578637204153">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="319" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578470921685" />
+    <state width="1900" height="302" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1578637204153" />
+    <state width="1899" height="363" key="GridCell.Tab.1.bottom" timestamp="1578307509921">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578307509921" />
+    <state width="1899" height="363" key="GridCell.Tab.1.center" timestamp="1578307509921">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578307509921" />
+    <state width="1899" height="363" key="GridCell.Tab.1.left" timestamp="1578307509921">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578307509921" />
+    <state width="1899" height="363" key="GridCell.Tab.1.right" timestamp="1578307509921">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578307509921" />
+    <state x="461" y="194" key="SettingsEditor" timestamp="1578619770251">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="461" y="181" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1578446707889" />
+    <state x="461" y="194" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1578619770251" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1577663940921">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1577663940921" />
+    <state x="530" y="276" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577947840116">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="530" y="276" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1080@0.0.1920.1080" timestamp="1577947840116" />
+    <state x="701" y="182" key="refactoring.ChangeSignatureDialog" timestamp="1577761450553">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="701" y="182" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1577761450553" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1578471703949">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1578471703949" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
