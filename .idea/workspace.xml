@@ -17,7 +17,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1VMTvsSiGCVPhzJtfTizmjK0McJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,14 +30,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="C:/dev/Python37/python.exe" />
-    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch06" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\내 드라이브\dev\lab-dl\ch06" />
-      <recent name="G:\내 드라이브\dev\lab-dl\ch03" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\내 드라이브\dev\lab-dl\ch06" />
       <recent name="G:\내 드라이브\dev\lab-dl" />
@@ -40,29 +41,12 @@
       <recent name="G:\내 드라이브\dev\lab-dl\ch03" />
       <recent name="G:\내 드라이브\dev\lab-dl\dataset" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\내 드라이브\dev\lab-dl\ch06" />
+      <recent name="G:\내 드라이브\dev\lab-dl\ch03" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.e12_overfitting">
-    <configuration name="e09_weight_init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab-dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/e09_weight_init.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.hyperparameter_optimization">
     <configuration name="e12_overfitting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lab-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,6 +60,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/e12_overfitting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="e13_dropout" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lab-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/e13_dropout.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="optimizer_compare_mnist (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hyperparameter_optimization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lab-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,11 +139,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../8. ML/밑바닥부터 시작하는 딥러닝/deep-learning-from-scratch-master/ch06" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../8. ML/밑바닥부터 시작하는 딥러닝/deep-learning-from-scratch-master/ch06/optimizer_compare_mnist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/hyperparameter_optimization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hyperparameter_optimization" />
+        <item itemvalue="Python.e13_dropout" />
         <item itemvalue="Python.e12_overfitting" />
         <item itemvalue="Python.ex11_batch_normalization" />
         <item itemvalue="Python.ex10_weight_compare" />
-        <item itemvalue="Python.e09_weight_init" />
-        <item itemvalue="Python.optimizer_compare_mnist (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -209,26 +214,26 @@
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1578465785835" />
     <state x="740" y="316" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1578619751772" />
-    <state width="1900" height="302" key="GridCell.Tab.0.bottom" timestamp="1578637204154">
+    <state width="1900" height="302" key="GridCell.Tab.0.bottom" timestamp="1578645000571">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1899" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578470921685" />
-    <state width="1900" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1578637204154" />
-    <state width="1900" height="302" key="GridCell.Tab.0.center" timestamp="1578637204153">
+    <state width="1900" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1578645000571" />
+    <state width="1900" height="302" key="GridCell.Tab.0.center" timestamp="1578645000571">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1899" height="319" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578470921685" />
-    <state width="1900" height="302" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1578637204153" />
-    <state width="1900" height="302" key="GridCell.Tab.0.left" timestamp="1578637204153">
+    <state width="1900" height="302" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1578645000571" />
+    <state width="1900" height="302" key="GridCell.Tab.0.left" timestamp="1578645000571">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1899" height="319" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578470921684" />
-    <state width="1900" height="302" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1578637204153" />
-    <state width="1900" height="302" key="GridCell.Tab.0.right" timestamp="1578637204153">
+    <state width="1900" height="302" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1578645000571" />
+    <state width="1900" height="302" key="GridCell.Tab.0.right" timestamp="1578645000571">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1899" height="319" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578470921685" />
-    <state width="1900" height="302" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1578637204153" />
+    <state width="1900" height="302" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1578645000571" />
     <state width="1899" height="363" key="GridCell.Tab.1.bottom" timestamp="1578307509921">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -245,15 +250,19 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1899" height="363" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578307509921" />
-    <state x="461" y="194" key="SettingsEditor" timestamp="1578619770251">
+    <state x="461" y="194" key="SettingsEditor" timestamp="1578642878050">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="461" y="181" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1578446707889" />
-    <state x="461" y="194" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1578619770251" />
+    <state x="461" y="194" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1578642878050" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1577663940921">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1577663940921" />
+    <state x="755" y="493" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578644639549">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="755" y="493" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1160@0.0.1920.1160" timestamp="1578644639549" />
     <state x="530" y="276" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577947840116">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

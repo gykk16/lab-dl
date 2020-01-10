@@ -56,7 +56,7 @@ class MultiLayerNetExtend:
 
             self.layers['Activation_function' + str(idx)] = activation_layer[activation]()
 
-            if self.use_dropout:
+            if self.use_dropout:    # dropout 활성 코드
                 self.layers['Dropout' + str(idx)] = Dropout(dropout_ration)
 
         idx = self.hidden_layer_num + 1
