@@ -68,8 +68,8 @@ if __name__ == '__main__':
             # w = np.random.randn(node_num, node_num) * np.sqrt(2/node_num)  # N(0, sqrt(2/n))
             w = np.random.randn(node_num, node_num) * v
             a = x.dot(w)  # a = x @ w
-            # x = sigmoid(a)  # 활성화 함수 적용 -> 은닉층의 출력(output)
-            x = tanh(a)
+            x = sigmoid(a)  # 활성화 함수 적용 -> 은닉층의 출력(output)
+            # x = tanh(a)
             # x = relu(a)
             activations[i] = x  # 그래프 그리기 위해서 출력 결과를 저장
 
