@@ -5,7 +5,7 @@
 import numpy as np
 
 
-def _convolution_1d(x, w):
+def __convolution_1d(x, w):
     '''
     x, w: 1d ndarray
     len(x) >= len(w)
@@ -23,7 +23,7 @@ def _convolution_1d(x, w):
     return conv
 
 
-def convolution_1d(x, w):  # 선생님 ver
+def _convolution_1d(x, w):  # 선생님 ver
     w_r = np.flip(w)
     nx = len(x)  # x 원소의 개수
     nw = len(w)  # w 원소의 개수
@@ -37,7 +37,13 @@ def convolution_1d(x, w):  # 선생님 ver
     return conv
 
 
-def _cross_correlation_1d(x, w):
+def convolution_1d(x, w):
+    w_r = np.flip(w)
+    conv = cross_correlation_1d(x, w_r)
+    return conv
+
+
+def cross_correlation_1d(x, w):
     '''
     x, w: 1d ndarray, len(x) >= len(w)
     x와 w의 교차 상관(cross-correlation) 연산 결과를 리턴
@@ -50,15 +56,7 @@ def _cross_correlation_1d(x, w):
         x_sub = x[i:i + nw]
         fma = x_sub.dot(w)
         cc.append(fma)
-    cc = np.array(cc)
-
-    return cc
-
-
-def cross_correlation_1d(x, w):
-    w = np.flip(w)
-    cc = convolution_1d(x, w)
-    return cc
+    return np.array(cc)
 
 
 if __name__ == '__main__':
@@ -104,3 +102,6 @@ if __name__ == '__main__':
     # 대부분의 경우 교차 상관을 사용함 -> 가중치 행렬을 난수로 생성하기 때문 (w 를 반전해도 난수임)
     # 가중치 행렬을 난수로 생성한 후 Gradient Descent 등을 이용해서 갱신하기 때문에,
     # 대부분의 경우 합성곱 연산 대신 교차 상관 연산을 사용함
+
+    cross_corr = cross_correlation_1d(x, w)
+    print(cross_corr)
