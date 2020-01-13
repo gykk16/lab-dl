@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6958143-defa-4197-8918-b3af3441aab2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ch06/practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch07_CNN/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch07_CNN/ex01_convolution1d.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/e09_weight_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch06/e09_weight_init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06/ex11_batch_normalization.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch06/ex11_batch_normalization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06/e05_Adam.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch06/e05_Adam.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,28 @@
       <recent name="G:\내 드라이브\dev\lab-dl\ch03" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.e09_weight_init">
+  <component name="RunManager" selected="Python.ex01_convolution1d (1)">
+    <configuration name="e05_Adam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/e05_Adam.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="e09_weight_init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="e12_overfitting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ex01_convolution1d (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07_CNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/e12_overfitting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07_CNN/ex01_convolution1d.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="e13_dropout" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ex01_convolution1d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07_CNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/e13_dropout.py" />
+      <option name="SCRIPT_NAME" value="G:\내 드라이브\dev\lab-dl\ch07_CNN\ex01_convolution1d.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex11_batch_normalization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,28 +149,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ex11_batch_normalization.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hyperparameter_optimization" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lab-dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/hyperparameter_optimization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex01_convolution1d (1)" />
+        <item itemvalue="Python.ex01_convolution1d" />
+        <item itemvalue="Python.practice" />
+        <item itemvalue="Python.e05_Adam" />
         <item itemvalue="Python.e09_weight_init" />
-        <item itemvalue="Python.hyperparameter_optimization" />
-        <item itemvalue="Python.e13_dropout" />
-        <item itemvalue="Python.e12_overfitting" />
-        <item itemvalue="Python.ex11_batch_normalization" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +191,19 @@
       <option name="presentableId" value="Default" />
       <updated>1577062197813</updated>
     </task>
+    <task id="LOCAL-00001" summary="각주 변경">
+      <created>1578725355105</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578725355105</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="각주 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="각주 변경" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577321133538">
@@ -222,25 +236,25 @@
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1578652300417" />
     <state x="740" y="316" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1578619751772" />
-    <state width="1899" height="319" key="GridCell.Tab.0.bottom" timestamp="1578725216490">
+    <state width="1899" height="319" key="GridCell.Tab.0.bottom" timestamp="1578881550739">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578725216490" />
+    <state width="1899" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578881550739" />
     <state width="1900" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1578651270839" />
-    <state width="1899" height="319" key="GridCell.Tab.0.center" timestamp="1578725216490">
+    <state width="1899" height="319" key="GridCell.Tab.0.center" timestamp="1578881550739">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="319" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578725216490" />
+    <state width="1899" height="319" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578881550739" />
     <state width="1900" height="302" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1578651270839" />
-    <state width="1899" height="319" key="GridCell.Tab.0.left" timestamp="1578725216490">
+    <state width="1899" height="319" key="GridCell.Tab.0.left" timestamp="1578881550738">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="319" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578725216490" />
+    <state width="1899" height="319" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578881550738" />
     <state width="1900" height="302" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1578651270839" />
-    <state width="1899" height="319" key="GridCell.Tab.0.right" timestamp="1578725216490">
+    <state width="1899" height="319" key="GridCell.Tab.0.right" timestamp="1578881550739">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="319" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578725216490" />
+    <state width="1899" height="319" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578881550739" />
     <state width="1900" height="302" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1578651270839" />
     <state width="1899" height="363" key="GridCell.Tab.1.bottom" timestamp="1578307509921">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -280,10 +294,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="701" y="182" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1577761450553" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1578471703949">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1578880356541">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1578471703949" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1578880356541" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

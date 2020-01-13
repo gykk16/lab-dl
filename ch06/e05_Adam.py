@@ -33,7 +33,7 @@ class Adam:
         self.m = dict()  # 1st momentum
         self.v = dict()  # 2nd momentum
 
-    def update(self, params, gradients):
+    def  mupdate(self, params, gradients):
         self.t += 1  # update 가 호출될 때마다 timestamp 를 1씩 증가
         if not self.m:  # m 이 비어 있는 dict() 때
             for key in params:
