@@ -37,6 +37,30 @@ def convolution_1d(x, w):  # 선생님 ver
     return conv
 
 
+def _cross_correlation_1d(x, w):
+    '''
+    x, w: 1d ndarray, len(x) >= len(w)
+    x와 w의 교차 상관(cross-correlation) 연산 결과를 리턴
+    '''
+    nx = len(x)
+    nw = len(w)
+    n = nx - nw + 1
+    cc = []
+    for i in range(n):
+        x_sub = x[i:i + nw]
+        fma = x_sub.dot(w)
+        cc.append(fma)
+    cc = np.array(cc)
+
+    return cc
+
+
+def cross_correlation_1d(x, w):
+    w = np.flip(w)
+    cc = convolution_1d(x, w)
+    return cc
+
+
 if __name__ == '__main__':
     np.random.seed(113)
     x = np.arange(1, 6)
@@ -80,4 +104,3 @@ if __name__ == '__main__':
     # 대부분의 경우 교차 상관을 사용함 -> 가중치 행렬을 난수로 생성하기 때문 (w 를 반전해도 난수임)
     # 가중치 행렬을 난수로 생성한 후 Gradient Descent 등을 이용해서 갱신하기 때문에,
     # 대부분의 경우 합성곱 연산 대신 교차 상관 연산을 사용함
-
