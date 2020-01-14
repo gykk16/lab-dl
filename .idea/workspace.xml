@@ -216,13 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578910845699</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="200114">
+      <created>1578964836079</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578964836079</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="각주 변경" />
     <MESSAGE value="0113" />
-    <option name="LAST_COMMIT_MESSAGE" value="0113" />
+    <MESSAGE value="200114" />
+    <option name="LAST_COMMIT_MESSAGE" value="200114" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="199" key="#Inspections" timestamp="1578903142112">

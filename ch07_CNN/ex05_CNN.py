@@ -20,7 +20,7 @@ print(img_pixel.shape)
 # (1075, 1920, 3) : (height, width, color-depth) => (row, col, RGB)  24-bit color
 # 머신 러닝 라이브러리에 따라서 color 표기의 위치가 다르다
 # TenserFlow: channel-last 방식. color-depth 가 3차원 배열의 마지막 차원
-# Theano: channel-first 방식. color-depth 가 3차원 배열의 첫번째 차원 (color, h, w)
+# Theano: channel-first 방식. color-depth 가 3차원 배열의 첫번째 차원 (channel, h, w)
 # Keras: 두가지 모두 지원
 
 
@@ -37,4 +37,6 @@ print(filter)
 transformed = convolve(img_pixel, filter, mode = 'same') / 255
 plt.imshow(transformed.astype(np.uint8))    # np.uint8 : 부호가 없는 8-bit int
 plt.show()
+
+
 
