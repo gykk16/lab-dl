@@ -2,6 +2,7 @@
 CNN(Convolutional Neural Network, 합성곱 신경망)
 원래 convolution 연산은 영상, 음성 처리(image/audio processing)에서 신호를 변환하기 위한 연산으로 사용
 
+
 '''
 
 import numpy as np
@@ -34,6 +35,6 @@ filter = np.zeros((3, 3, 3))
 filter[1, 1, 2] = 1.0
 print(filter)
 transformed = convolve(img_pixel, filter, mode = 'same') / 255
-plt.imshow(transformed)
+plt.imshow(transformed.astype(np.uint8))    # np.uint8 : 부호가 없는 8-bit int
 plt.show()
 

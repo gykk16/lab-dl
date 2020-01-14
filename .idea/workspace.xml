@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6958143-defa-4197-8918-b3af3441aab2" name="Default Changelist" comment="각주 변경">
-      <change afterPath="$PROJECT_DIR$/ch07_CNN/ex02_convolution2d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07_CNN/ex03_padding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07_CNN/ex04_conv_pad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07_CNN/ex05_CNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07_CNN/sample.jpg" afterDir="false" />
+    <list default="true" id="d6958143-defa-4197-8918-b3af3441aab2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_CNN/ex01_convolution1d.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch07_CNN/ex01_convolution1d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07_CNN/ex05_CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch07_CNN/ex05_CNN.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,12 +209,20 @@
       <option name="project" value="LOCAL" />
       <updated>1578882609737</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="0113">
+      <created>1578910845699</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578910845699</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="각주 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="각주 변경" />
+    <MESSAGE value="0113" />
+    <option name="LAST_COMMIT_MESSAGE" value="0113" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="199" key="#Inspections" timestamp="1578903142112">
@@ -251,34 +254,34 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="679" y="345" key="#org.intellij.plugins.intelliLang.inject.config.ui.BaseInjectionDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1578619744956" />
-    <state x="609" y="132" key="CommitChangelistDialog2" timestamp="1578883283079">
+    <state x="609" y="132" key="CommitChangelistDialog2" timestamp="1578964828528">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="609" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1578883283079" />
+    <state x="609" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1578964828528" />
     <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1578652300417">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1578652300417" />
     <state x="740" y="316" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1578619751772" />
-    <state width="1899" height="319" key="GridCell.Tab.0.bottom" timestamp="1578907916962">
+    <state width="1899" height="319" key="GridCell.Tab.0.bottom" timestamp="1578913589254">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578907916962" />
+    <state width="1899" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578913589254" />
     <state width="1900" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1578651270839" />
-    <state width="1899" height="319" key="GridCell.Tab.0.center" timestamp="1578907916961">
+    <state width="1899" height="319" key="GridCell.Tab.0.center" timestamp="1578913589254">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="319" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578907916961" />
+    <state width="1899" height="319" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578913589254" />
     <state width="1900" height="302" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1578651270839" />
-    <state width="1899" height="319" key="GridCell.Tab.0.left" timestamp="1578907916961">
+    <state width="1899" height="319" key="GridCell.Tab.0.left" timestamp="1578913589254">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="319" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578907916961" />
+    <state width="1899" height="319" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578913589254" />
     <state width="1900" height="302" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1578651270839" />
-    <state width="1899" height="319" key="GridCell.Tab.0.right" timestamp="1578907916962">
+    <state width="1899" height="319" key="GridCell.Tab.0.right" timestamp="1578913589254">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="319" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578907916962" />
+    <state width="1899" height="319" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578913589254" />
     <state width="1900" height="302" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1578651270839" />
     <state width="1899" height="363" key="GridCell.Tab.1.bottom" timestamp="1578307509921">
       <screen x="0" y="0" width="1920" height="1080" />
