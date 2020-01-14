@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6958143-defa-4197-8918-b3af3441aab2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch07_CNN/ex06_image_index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07_CNN/ex07_convolution3d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07_CNN/ex08_pooling.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch07_CNN/ex05_CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch07_CNN/ex05_image(CNN).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07_CNN/ex08_pooling.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch07_CNN/ex08_pooling.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,14 +230,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578966660403</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="200114">
+      <created>1578994537321</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578994537321</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0113" />
-    <MESSAGE value="200114" />
     <MESSAGE value="각주 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="각주 변경" />
+    <MESSAGE value="200114" />
+    <option name="LAST_COMMIT_MESSAGE" value="200114" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="199" key="#Inspections" timestamp="1578903142112">
@@ -272,10 +276,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="679" y="345" key="#org.intellij.plugins.intelliLang.inject.config.ui.BaseInjectionDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1578619744956" />
-    <state x="609" y="132" key="CommitChangelistDialog2" timestamp="1578966652912">
+    <state x="609" y="132" key="CommitChangelistDialog2" timestamp="1578994533902">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="609" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1578966652912" />
+    <state x="609" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1578994533902" />
     <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1578652300417">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -326,10 +330,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1577663940921" />
-    <state x="755" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578910707867">
+    <state x="755" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578994596457">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="755" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1578910707867" />
+    <state x="755" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1578994596457" />
     <state x="755" y="493" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1160@0.0.1920.1160" timestamp="1578644639549" />
     <state x="530" y="276" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577947840116">
       <screen x="0" y="0" width="1920" height="1080" />

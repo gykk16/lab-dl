@@ -25,7 +25,7 @@ def pooling2d(x, pool_h, pool_w, stride = 1):  # 선생님 답안
     :return: max-pooling
     '''
 
-    h, w = x.shape[0], x.shape[1]  # 원본 데이터의 height/widtgh
+    h, w = x.shape[0], x.shape[1]  # 원본 데이터의 height/width
     oh = (h - pool_h) // stride + 1  # 출력 배열의 height
     ow = (w - pool_w) // stride + 1  # 출력 배열의 width
     output = np.zeros((oh, ow))  # 출력 배열 초기화
