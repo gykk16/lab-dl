@@ -27,6 +27,25 @@ def cross_correlation_2d(x, w):
     return cc
 
 
+def cross_correlation_3d(x, w):
+    # (c, h, w)
+    c, h, w = x.shape
+    c, fh, fw = w.shape
+    oh = h - fh + 1
+    ow = w - fw + 1
+    oc = 1
+
+    cc = np.zeros(shape = (c, oh, ow))
+
+    for k in range(oc):
+        for i in range(oh):
+            for j in range(ow):
+                x_sub = x[:, i:i + fh, j:j + fw]
+                cc[k, i, j] = np.sum(x_sub * w)
+    return cc
+
+
+
 if __name__ == '__main__':
     x = np.arange(1, 6)
     w = np.array([2, 0, 1])
@@ -40,3 +59,6 @@ if __name__ == '__main__':
 
     cc = cross_correlation_2d(x, w)
     print(cc)
+
+
+    x = np.arange()

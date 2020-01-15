@@ -4,12 +4,12 @@ from scipy.signal import correlate
 
 def _convolution3d(x, w):
     # 들어오는 x 의 shape 는 (c, h, w)
-    x_depth, x_row, x_col = x.shape[0], x.shape[1], x.shape[2]
-    w_depth, w_row, w_col = w.shape[0], w.shape[1], w.shape[2]
+    x_depth, x_row, x_col = x.shape
+    w_depth, w_row, w_col = w.shape
 
     # 결과 ndarray
     row = x_row - w_row + 1
-    col = x_col - w_row + 1
+    col = x_col - w_col + 1
     depth = x_depth - w_depth + 1
 
     cc = np.zeros(shape = (depth, row, col))  # 비어 있는 결과 ndarray 생성
@@ -72,5 +72,7 @@ if __name__ == '__main__':
     print('conv1 =\n', conv1)
     print('conv2 =\n', conv2)
 
+    print('x shape =', x.shape)
+    print('w shape =', w.shape)
     print('conv1 shape =', conv1.shape)
     print('conv2 shape =', conv2.shape)

@@ -107,26 +107,26 @@ if __name__ == '__main__':
     # 이미지 확인
     img = out.squeeze()  # 차원 축소
     print('img :', img.shape)
-    plt.imshow(img, cmap = 'gray')
-    plt.show()
+    # plt.imshow(img, cmap = 'gray')
+    # plt.show()
 
     #####
     #####
     #####
     print('\n====================\n')
     #
-    W = np.random.randint(10, size = (10, 3, 10, 10))
+    W = np.random.randint(10, size = (10, 3, 20, 20))
     b = np.zeros(shape = (1, 10))
     print('W shape =', W.shape)
     print('b shape =', b.shape)
 
     # Convolution 을 생성
-    convolution = Convolution(W, b, stride = 5, pad = 0)
+    convolution = Convolution(W, b, stride = 1, pad = 0)
 
     # 다운로드 받은 이미지 파일을 ndarray 로 변환해서 forward
     img = Image.open('sample.jpg')
     img = np.array(img)
-    # print(img.shape)
+    print(img.shape)
     x = img.reshape(1, 1075, 1920, 3)
     x = x.transpose(0, 3, 1, 2)
     print('x shape =', x.shape)
