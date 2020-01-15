@@ -66,6 +66,7 @@ def im2col(input_data, filter_h, filter_w, stride = 1, pad = 0):
             col[:, :, y, x, :, :] = img[:, :, y:y_max:stride, x:x_max:stride]
 
     col = col.transpose(0, 4, 5, 1, 2, 3).reshape(N * out_h * out_w, -1)  # 6차원을 2차원으로 변환
+    # .reshape( , -1) : -1 은 남아 있는 숫자로 만들겠다
     return col
 
 
