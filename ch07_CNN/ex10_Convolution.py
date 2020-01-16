@@ -115,7 +115,7 @@ if __name__ == '__main__':
     #####
     print('\n====================\n')
     #
-    W = np.random.randint(10, size = (10, 3, 20, 20))
+    W = np.random.randint(10, size = (10, 3, 100, 100))
     b = np.zeros(shape = (1, 10))
     print('W shape =', W.shape)
     print('b shape =', b.shape)
@@ -128,6 +128,7 @@ if __name__ == '__main__':
     img = np.array(img)
     print(img.shape)
     x = img.reshape(1, 1075, 1920, 3)
+    
     x = x.transpose(0, 3, 1, 2)
     print('x shape =', x.shape)
     conv = convolution.forward(x)
