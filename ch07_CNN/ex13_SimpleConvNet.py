@@ -72,6 +72,7 @@ class SimpleConvNet:
             pass
 
     if __name__ == '__main__':
-# MNIST 데이터 로드
-# SimpleConvNet 생성
-# 학습 -> 테스트
+        pass
+        # MNIST 데이터 로드
+        # SimpleConvNet 생성
+        # 학습 -> 테스트
