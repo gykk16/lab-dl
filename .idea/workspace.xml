@@ -40,14 +40,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab-python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch08" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\내 드라이브\dev\lab-dl\ch06" />
-      <recent name="G:\내 드라이브\dev\lab-dl\ch03" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\내 드라이브\dev\lab-dl\ch08" />
       <recent name="G:\내 드라이브\dev\lab-dl\ch07_CNN" />
@@ -55,8 +51,12 @@
       <recent name="G:\내 드라이브\dev\lab-dl" />
       <recent name="G:\내 드라이브\dev\lab-dl\ch05" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\내 드라이브\dev\lab-dl\ch06" />
+      <recent name="G:\내 드라이브\dev\lab-dl\ch03" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.mnist_cnn">
+  <component name="RunManager" selected="Python.functional_api2">
     <configuration name="ex01_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,7 +78,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex14_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="functional_api2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lab-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +86,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07_CNN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch08" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07_CNN/ex14_.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch08/functional_api2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex15_cnn_params" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="instance_call" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lab-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +107,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07_CNN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch08" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07_CNN/ex15_cnn_params.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch08/instance_call.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="keras_functional_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lab-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch08" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch08/keras_functional_api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,34 +162,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pract" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab-dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07_CNN" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07_CNN/pract.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.functional_api2" />
+        <item itemvalue="Python.keras_functional_api" />
+        <item itemvalue="Python.instance_call" />
         <item itemvalue="Python.mnist_cnn" />
         <item itemvalue="Python.ex01_" />
-        <item itemvalue="Python.ex15_cnn_params" />
-        <item itemvalue="Python.ex14_" />
-        <item itemvalue="Python.pract" />
       </list>
     </recent_temporary>
   </component>
@@ -307,30 +307,30 @@
     <state x="740" y="283" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579272823205" />
     <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1579073147096" />
     <state x="740" y="316" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1579503581172" />
-    <state width="1900" height="302" key="GridCell.Tab.0.bottom" timestamp="1579503582763">
+    <state width="1897" height="328" key="GridCell.Tab.0.bottom" timestamp="1579672050362">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1897" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579278967974" />
     <state width="1899" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579249466046" />
-    <state width="1900" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1579503582763" />
-    <state width="1900" height="302" key="GridCell.Tab.0.center" timestamp="1579503582763">
+    <state width="1897" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1579672050362" />
+    <state width="1897" height="328" key="GridCell.Tab.0.center" timestamp="1579672050362">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1897" height="318" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579278967974" />
     <state width="1899" height="319" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579249466046" />
-    <state width="1900" height="302" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1579503582763" />
-    <state width="1900" height="302" key="GridCell.Tab.0.left" timestamp="1579503582763">
+    <state width="1897" height="328" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1579672050362" />
+    <state width="1897" height="328" key="GridCell.Tab.0.left" timestamp="1579672050362">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1897" height="318" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579278967974" />
     <state width="1899" height="319" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579249466046" />
-    <state width="1900" height="302" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1579503582763" />
-    <state width="1900" height="302" key="GridCell.Tab.0.right" timestamp="1579503582763">
+    <state width="1897" height="328" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1579672050362" />
+    <state width="1897" height="328" key="GridCell.Tab.0.right" timestamp="1579672050362">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1897" height="318" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579278967974" />
     <state width="1899" height="319" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579249466046" />
-    <state width="1900" height="302" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1579503582763" />
+    <state width="1897" height="328" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1579672050362" />
     <state width="1899" height="363" key="GridCell.Tab.1.bottom" timestamp="1578307509921">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -42,12 +42,12 @@ X_train = X_train.reshape(*X_train.shape, 1)
 X_test = X_test.reshape(*X_test.shape, 1)
 
 # Y_train, Y_test를 one-hot-encoding 변환
-Y_train = to_categorical(Y_train, 10, dtype='float16')
-Y_test = to_categorical(Y_test, 10, dtype='float16')
+Y_train = to_categorical(Y_train, 10, dtype = 'float16')
+Y_test = to_categorical(Y_test, 10, dtype = 'float16')
 
 # X_train, X_test를 0. ~ 1. 사이의 값으로 정규화(normalization)
 X_train = X_train.astype('float16') / 255
-X_test= X_test.astype('float16') / 255
+X_test = X_test.astype('float16') / 255
 
 print(f'X_train: {X_train.shape}, Y_train: {Y_train.shape}')
 print(f'X_test: {X_test.shape}, Y_test: {Y_test.shape}')
@@ -59,32 +59,32 @@ model = Sequential()
 # Conv2D -> MaxPool2D -> Flatten -> Dense -> Dense
 # Conv2D 활성화 함수: ReLU
 # Dense 활성화 함수: ReLU, Softmax
-model.add(Conv2D(filters=32,            # 필터 개수
-                 kernel_size=(3, 3),    # 필터 height/width
-                 activation='relu',     # 활성화 함수
-                 input_shape=(28, 28, 1)))  # 입력 데이터 shape
-model.add(MaxPool2D(pool_size=2))
+model.add(Conv2D(filters = 32,  # 필터 개수
+                 kernel_size = (3, 3),  # 필터 height/width
+                 activation = 'relu',  # 활성화 함수
+                 input_shape = (28, 28, 1)))  # 입력 데이터 shape
+model.add(MaxPool2D(pool_size = 2))
 model.add(Flatten())
-model.add(Dense(128, activation='relu'))  # 완전 연결 은닉층
-model.add(Dense(10, activation='softmax'))  # 출력층
+model.add(Dense(128, activation = 'relu'))  # 완전 연결 은닉층
+model.add(Dense(10, activation = 'softmax'))  # 출력층
 
 # 신경망 모델 컴파일
-model.compile(loss='categorical_crossentropy',
-              optimizer='adam',
-              metrics=['accuracy'])
+model.compile(loss = 'categorical_crossentropy',
+              optimizer = 'adam',
+              metrics = ['accuracy'])
 
 # 신경망 모델의 성능 향상이 없는 경우 중간에 epoch를 빨리 중지시키기 위해서
-early_stop = EarlyStopping(monitor='val_loss',
-                           verbose=1,
-                           patience=10)
+early_stop = EarlyStopping(monitor = 'val_loss',
+                           verbose = 1,
+                           patience = 10)
 
 # 신경망 학습
 history = model.fit(X_train, Y_train,
-                    batch_size=200,
-                    epochs=50,
-                    verbose=1,
-                    callbacks=[early_stop],
-                    validation_data=(X_test, Y_test))
+                    batch_size = 200,
+                    epochs = 50,
+                    verbose = 1,
+                    callbacks = [early_stop],
+                    validation_data = (X_test, Y_test))
 
 # 테스트 데이터를 사용해서 신경망 모델을 평가
 # 테스트 데이터의 Loss, Accuracy
@@ -96,8 +96,8 @@ train_loss = history.history['loss']
 test_loss = history.history['val_loss']
 
 x = range(len(train_loss))
-plt.plot(x, train_loss, marker='.', color='red', label='Train loss')
-plt.plot(x, test_loss, marker='.', color='blue', label='Test loss')
+plt.plot(x, train_loss, marker = '.', color = 'red', label = 'Train loss')
+plt.plot(x, test_loss, marker = '.', color = 'blue', label = 'Test loss')
 plt.legend()
 plt.xlabel('epoch')
 plt.ylabel('loss')
@@ -107,8 +107,8 @@ plt.show()
 train_acc = history.history['accuracy']
 test_acc = history.history['val_accuracy']
 
-plt.plot(x, train_acc, marker='.', c='red', label='Train Acc.')
-plt.plot(x, test_acc, marker='.', c='blue', label='Test Acc.')
+plt.plot(x, train_acc, marker = '.', c = 'red', label = 'Train Acc.')
+plt.plot(x, test_acc, marker = '.', c = 'blue', label = 'Test Acc.')
 plt.legend()
 plt.xlabel('epoch')
 plt.ylabel('accuracy')
